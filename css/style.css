@@ -1,0 +1,141 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    background-color: #fff;
+
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
+.header{
+    background: #1967B2;
+    padding: 12px;
+}
+
+.logo{
+    float: left;
+    margin-top: 10px;
+    width: 20%;
+}
+
+.menu{
+    float:left;
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{
+    color: #FFF;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    padding: 15px;
+    display: block;
+}
+
+.clearfix:after{
+    display: block;
+    width: 0px;
+    height: 0;
+    content: "";
+    clear: both;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.banner {
+    background-color: #FFFFFF;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    color: #000000;
+    height: 457px;
+    width: 1440px;
+    float: left;
+    display: block;
+}
+
+.banner .btn-holder {
+    color: #000000;
+    background-position: 0% 0%;
+    background-color: #FFFFFF;
+    display: block;
+    height: 58px;
+    width: 100%;
+    margin: 8px 135px 0 135px;
+}
+
+.banner .btn-holder .btn-datmua {
+    background-color: #1967b2;
+    border-color: #1967b2!important;
+    border-radius: 2px;
+    padding: 6px;
+    color: #FFFFFF;
+    float: left;
+    display: inline-block;
+    height: 33px;
+    width: 112px;
+    transition: background-color .1s ease;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: .2px;
+    text-decoration: none;
+}
+
+.banner .btn-holder .btn-taive {
+    background-color: #a09ea4;
+    margin-left: 5px;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 5px;
+    float: left;
+    display: inline-block;
+    height: 33px;
+    width: 112px;
+    transition: background-color .1s ease;
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: .2px;
+    text-decoration: none;
+    color: #fff;
+}
+.container-1-row {
+    width: auto;
+    height: 460px;
+}
+
+.container-1-row .content-gioithieu .content-huongdan .content-hotro {
+    margin: 20px;
+    width: 300px;
+}
+
+.img-content {
+    width: 300px;
+    height: 200px;
+}
+
+.container-1-row .content-gioithieu {
+    margin-top: 15px;
+    float: left;
+    margin-right: 5px;
+    height: 410px;
+    width: 296px;
+}
+
+.container-1-row .content-huongdan {
+    margin-top: 15px;
+    margin-left: 55px;
+}
+
+.container-1-row .content-hotro {
+    margin-top: 15px;
+    margin-left: -10px;
+}
